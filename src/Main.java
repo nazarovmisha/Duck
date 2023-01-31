@@ -1,13 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        Duck m = new Duck();
-        m.quack();
-        m.display();
-        m.swim();
-        m.fly();
-        MallardDuck mallardDuck = new MallardDuck();
-        mallardDuck.display();
-        RedheadDuck redheadDuck=new RedheadDuck();
-        redheadDuck.display();
+RedheadDuck redheadDuck = new RedheadDuck();
+redheadDuck.fly();
+redheadDuck.quack();
+redheadDuck.display();
+redheadDuck.swim();
+RubberDuck rubberDuck=new RubberDuck();
+rubberDuck.display();
+rubberDuck.swim();
+rubberDuck.quack();
     }
 }
