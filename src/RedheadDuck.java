@@ -8,7 +8,6 @@ public class RedheadDuck extends Duck implements Flyable,Quackable {
         System.out.println("Hello. I.m RedheadDuck");
     }
 
-
     public void quack() {
         System.out.println("Redhead duck can quack");
     }
