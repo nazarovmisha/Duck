@@ -1,9 +1,5 @@
-public class RubberDuck extends Duck implements Quackable {
+public class RubberDuck extends Duck   {
 
-    @Override
-    public void quack() {
-        System.out.println("the rubber duck squeaks");
-    }
 
     @Override
     public void swim() {

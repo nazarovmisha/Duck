@@ -1,4 +1,4 @@
-public class RedheadDuck extends Duck implements Flyable,Quackable {
+public class RedheadDuck extends Duck {
     @Override
     public void swim() {
         super.swim();
@@ -7,13 +7,6 @@ public class RedheadDuck extends Duck implements Flyable,Quackable {
     public void display() {
         System.out.println("Hello. I.m RedheadDuck");
     }
-
-    public void quack() {
-        System.out.println("Redhead duck can quack");
-    }
-
-    @Override
-    public void fly() {
-        System.out.println("Redhead duck can fly");
-    }
 }
+
+
